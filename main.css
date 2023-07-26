@@ -1,0 +1,120 @@
+@font-face {
+  font-family: "DINBOLD";
+  src: url(fonts/D-DIN-Bold.woff2);
+}
+@font-face {
+  font-family: "DIN";
+  src: url(fonts/D-DIN.woff2);
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+html {
+  font-size: 16px;
+}
+li {
+  list-style-type: none;
+}
+.background {
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bg1 {
+  background-image: url("images/LAUNCHES_Starlink_SLC_40_Desktop.jpg");
+}
+.bg2 {
+  background-image: url("images/Euclid_outsidetowerh_IMG_2487_desktop.jpg");
+}
+.bg3 {
+  background-image: url(images/STARSHIP_Testflight_DESKTOP.jpg);
+}
+.nav {
+  position: fixed;
+}
+.nav-dad {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  font-size: 0.9rem;
+  font-family: DINBOLD;
+  color: #fff;
+  height: 6.25rem;
+  margin: 0;
+  padding: 3rem;
+  gap: 1rem;
+}
+.nav-bar {
+  display: flex;
+  gap: 2.5rem;
+  letter-spacing: -1px;
+  padding-top: 0.75rem;
+}
+.side-nav {
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+  padding-top: 0.75rem;
+}
+.logo {
+  height: 15%;
+  width: 15%;
+}
+.fill-white {
+  fill: #fff;
+}
+.nav-link {
+  color: #fff;
+}
+.nav-link:link {
+  text-decoration: none;
+  color: #fff;
+}
+.nav-link:hover {
+  text-decoration: none;
+  color: #fff;
+}
+.starlink {
+  position: absolute;
+  padding-top: 30%;
+  margin-left: 5rem;
+}
+.act {
+  font-size: 1.25rem;
+  font-family: DIN;
+  line-height: 0%;
+  color: #fff;
+}
+.mission {
+  font-size: 3rem;
+  font-family: DINBOLD;
+  line-height: 0%;
+  color: #fff;
+}
+.btn {
+  border: 2px solid #fff;
+  margin-top: 1rem;
+  padding: 1rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  width: 10rem;
+  transition: 0.5s;
+}
+.btn:hover {
+  background-color: #fff;
+  .text {
+    color: #000;
+  }
+}
+.text {
+  color: #fff;
+  font-size: 0.9rem;
+  font-family: DINBOLD;
+}
+.btn:link {
+  text-decoration: none;
+}
